@@ -1,3 +1,4 @@
+namespace Learning02;
 using System;
 using System.Buffers;
 
@@ -9,7 +10,7 @@ class Program
 
         var cars = new List<Car>();
 
-        var car = new Car();
+        var car = new Car("Honda","Civic", 10, 30);
         car.model = "Honda";
         car.model = "Civic";
         car.year =2021;
@@ -23,7 +24,7 @@ class Program
 
         cars.Add(car);
 
-        car = new Car();
+        car = new Car("Frod","F-150", 30, 5);
         car.model = "Ford";
         car.model = "F-150";
         car.gallons = 30;

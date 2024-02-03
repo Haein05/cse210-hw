@@ -1,4 +1,7 @@
+namespace Learning02;
+
 class Car 
+
 {
     public string model;
     public string make;
@@ -6,6 +9,14 @@ class Car
     public int milesPerGallen;
     public int gallons;
     public Person owner;
+
+    public Car(string make, string model, int milesPerGallen, int gallons) {
+        this.model = model;
+        this.make = make;
+        this.milesPerGallen = milesPerGallen;
+        this.gallons = gallons;
+    }
+
 
     public int TotalRange() 
     {
