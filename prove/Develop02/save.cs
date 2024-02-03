@@ -13,6 +13,7 @@ public class Save
                 outputFile.WriteLine($"{entry._date},{entry._prompt},{entry._entry}");
 
             }
+            // Add text to a file using the WriteLine method
             
         }
 

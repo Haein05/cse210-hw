@@ -35,6 +35,8 @@ public class Entry
         
     }
 
+     // return prompt(rnm.Next(promt.Count));
+     // Random rnm = new Random();
 
 }
 
