@@ -7,9 +7,9 @@ class Program
 
         
         List<Video> videos = new List<Video>{
-        new Video("how to dring water", "Haein Lee", 143200432),
-        new Video("Top 10 companies", "Mallory Lee", 33256),
-        new Video("The best way to memorize a song", "Danny Kim", 4654777)
+        new Video("How to Drink Water Efficiently", "Jane Doe", 120000),
+        new Video("Top 10 Tech Companies in 2024", "John Smith", 500000),
+        new Video("Mastering Song Memorization Techniques", "Alex Johnson", 750000)
         };
 
         foreach (Video video in videos){

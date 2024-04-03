@@ -4,7 +4,6 @@ public class Activity
     private DateTime date;
 
     protected int kg_length; 
-    // in minutes
     protected float kg_distance;
 
     protected string kg_name;

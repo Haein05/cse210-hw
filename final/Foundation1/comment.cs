@@ -11,11 +11,11 @@ class Comment{
     };
     
     List<string> comments = new List<string>{
-        "You are looking good!!!",
-        "Good jobs!!!",
-        "This video looks great!",
-        "What the holy smoke!!!",
-        "This video is amazing!"
+    "Incredible performance!",
+    "Well done, keep it up!",
+    "This is absolutely fantastic!",
+    "I'm blown away by this!",
+    "Truly inspiring work!"
     };
 
     public Comment(){
